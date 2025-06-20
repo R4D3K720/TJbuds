@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Kup TJbuds</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: #f3f4f6;
+      color: #333;
+    }
+
+    header {
+      background: #4b5563;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    nav {
+      background: #374151;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: #d1d5db;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1000px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .image-side {
+      flex: 1;
+      min-width: 300px;
+      background: #e5e7eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    .image-side img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .image-side h2 {
+      font-size: 1.5em;
+      margin-top: 20px;
+    }
+
+    .form-side {
+      flex: 1;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .form-side h3 {
+      font-size: 1.4em;
+      margin-bottom: 20px;
+    }
+
+    .form-side p {
+      font-size: 1em;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .form-side a.button {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      width: fit-content;
+    }
+
+    .form-side a.button:hover {
+      background: #1e40af;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TJbuds</h1>
+    <p>Najlepszej jakości słuchawki bezprzewodowe z ANC</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Strona Główna</a>
+    <a href="#">O nas</a>
+    <a href="#">Kontakt</a>
+  </nav>
+
+  <div class="container">
+    <div class="image-side">
+      <img src="https://i.pinimg.com/736x/14/6d/a0/146da0c2a57cc61e3c4ad2377b42c70e.jpg" alt="TJbuds">
+      <h2>TJbuds™</h2>
+    </div>
+    <div class="form-side">
+      <h3>O słuchawkach</h3>
+      <p>Odkryj doskonałe brzmienie z TJbuds – stylowymi, solidnie wykonanymi słuchawkami bezprzewodowymi z aktywną redukcją szumów (ANC). Idealne do pracy, podróży i codziennego relaksu. Ich uniwersalny design sprawia, że pasują do każdego stylu życia.</p>
+      <a href="formularz.html" class="button">Kup teraz</a>
+    </div>
+  </div>
+
+</body>
+</html>
